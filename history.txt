@@ -1,0 +1,108 @@
+    1  history
+    2  clear
+    3  cd ..
+    4  cd ..
+    5  pwd
+    6  mkdir Guacamole
+    7  cd Guacamole/
+    8  nano incredients.txt
+    9  cat incredients.txt 
+   10  git config --global user.name "cmbartley"
+   11  git config --global user.email "christopher.bartley@ucsf.edu"
+   12  git config --global color.ui "auto"
+   13  git config --global -- list
+   14  git config --global --list
+   15  git init
+   16  ls -la
+   17  mv incredients.txt ingredients.txt
+   18  ls
+   19  git add ingredients.txt
+   20  git commit -m "first commit"
+   21  git remote add origin https://github.com/cmbartley/Guacamole.git
+   22  git push -u origin master
+   23  git push -u origin master
+   24  git push -u origin master
+   25  git push -u origin master
+   26  nano ingredients.txt 
+   27  cat ingredients.txt 
+   28  git add ingredients.txt 
+   29  git commit -m "add lime"
+   30  git push origin master
+   31  nano ingredients.txt 
+   32  cat ingredients.txt 
+   33  git status
+   34  git add ingredients.txt
+   35  git status
+   36  git commit -m "added onion"
+   37  git status
+   38  git push origin master
+   39  git log
+   40  ls
+   41  ls .git
+   42  nano ingredients.txt 
+   43  cat ingredients.txt 
+   44  git status
+   45  git add ingredients
+   46  git add ingredients.txt ingredients.txt 
+   47  git status
+   48  git commit -m "add salt"
+   49  git push origin master
+   50  nano instructions.txt
+   51  cat instructions.txt 
+   52  nano ingredients.txt 
+   53  cat ingredients.txt 
+   54  nano instructions.txt 
+   55  git status
+   56  git add .
+   57  git commit -m commit "provide instructions and add pepper"
+   58  git commit -m "provide instructions and add pepper"
+   59  git push origin master
+   60  git pull origin master
+   61  nano instructions.txt 
+   62  git pull origin master
+   63  nano ingredients.txt 
+   64  nano instructions.txt 
+   65  cat instructions.txt 
+   66  git add.
+   67  git add . 
+   68  git commit -m "add instructions for cilantro"
+   69  git push origin master
+   70  git pull origin master
+   71  nano instructions.txt 
+   72  git add .
+   73  git commit -m "resolve conflight in adding cilantro"
+   74  git push origin master
+   75  nano ingredients.txt 
+   76  git add .
+   77  git commit -m "replace salt with salsa"
+   78  git push origin master
+   79  git pull origin master
+   80  cat ingredients.txt 
+   81  nano ingredients.txt 
+   82  git add .
+   83  git commit -m "merge conflict introduced"
+   84  git pull origin master
+   85  nano ingredients.txt 
+   86  git add .
+   87  git commit -m "conflict merged"
+   88  git push origin master
+   89  git log
+   90  git push origin MyGuac
+   91  nano instructions.txt 
+   92  git checkout -t origin/MyGuac
+   93  git FETCH
+   94  git fetch
+   95  git checkout -t origin/MyGuac
+   96  ls
+   97  ls -la
+   98  git status
+   99  git checkout master
+  100  cd ..
+  101  cd ..
+  102  cd ckbar/
+  103  rm -rf Guacamole/
+  104  ls
+  105  git clone https://github.com/cmbartley/Guacamole
+  106  cd Guacamole/
+  107  ls
+  108  history > history.txt
